@@ -331,7 +331,7 @@ a#logo {
   font-size: 15px;
   text-decoration:none;
   display:block;
-  font-weight: 500;
+  font-weight: 300;
   opacity: 0.9;
 }
 .navbar-nav li a:after {

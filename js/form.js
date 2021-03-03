@@ -40,7 +40,7 @@ $(function() {
 			if (data.responseText !== '') {
 				$(formMessages).text(data.responseText);
 			} else {
-				$(formMessages).text('Oops, Your message seems to counter error');
+				$(formMessages).text('Oops, We could not submit your form right now because this website is still under construction! Kindly click on the whatsapp icon to reach us or call us using the number above.');
 
 				// Clear the form.
 			$('#name, #email, #message').click('');
